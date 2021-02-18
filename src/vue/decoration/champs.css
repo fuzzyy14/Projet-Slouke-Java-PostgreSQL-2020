@@ -36,7 +36,7 @@ https://commons.wikimedia.org/wiki/File:Corner_Ornament_Black_Down_Right.svg
     -fx-background-color: yellowgreen;
 }
 
-#menu Button
+#menu-retour
 {
     -fx-background-color: yellowgreen;
     -fx-border-radius: 0px;
@@ -44,13 +44,13 @@ https://commons.wikimedia.org/wiki/File:Corner_Ornament_Black_Down_Right.svg
     -fx-cursor:hand;
 }
 
-#menu Button:hover{
+#menu-retour Button:hover{
     -fx-background-color: #333333;
     //-fx-border-width: 0px 0px 0px 3px;
     -fx-border-color: white;
     -fx-border-style: solid;
 }
-#menu Button:pressed
+#menu-retour Button:pressed
 {
     -fx-background-color: #cccccc;   
 }
