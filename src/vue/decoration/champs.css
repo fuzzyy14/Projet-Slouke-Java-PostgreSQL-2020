@@ -4,7 +4,7 @@ https://commons.wikimedia.org/wiki/File:Corner_Ornament_Black_Down_Right.svg
 */
 #fenetre
 {
-    -fx-background-color:#fff;
+    -fx-background-color:linear-gradient(from 25% 25% to 100% 100%, #88ccdb, #e0bbb1);
 }
 #espace-travail
 {
@@ -14,31 +14,31 @@ https://commons.wikimedia.org/wiki/File:Corner_Ornament_Black_Down_Right.svg
 }
 #entete
 {
-    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #6376ff, #c4cbff);
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #88ccdb, #88dba4);
 
 }
 #entete Label
 {
     -fx-text-fill : #333333;    
 }
-#entete #sous-titre
+#sous-titre
 {
     -fx-border-color:black;
     -fx-background-color:white;
 }
-#entete #sous-titre Label
+#sous-titre Label
 {
     -fx-text-fill : black;
 }
 
 #menu
 {
-    -fx-background-color: #aaa;
+    -fx-background-color: yellowgreen;
 }
 
 #menu Button
 {
-    -fx-background-color: #aaa;
+    -fx-background-color: yellowgreen;
     -fx-border-radius: 0px;
     -fx-border-insets: 0px 0px 0px 0px;
     -fx-cursor:hand;
