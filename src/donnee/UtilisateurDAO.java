@@ -30,9 +30,11 @@ public class UtilisateurDAO {
 			
 			while(curseurListeUtilisateurs.next())
 			{
-				String email = curseurListeUtilisateurs.getString("email");
+				
 				String pseudo = curseurListeUtilisateurs.getString("pseudo");
+				System.out.println(pseudo);
 				String bio = curseurListeUtilisateurs.getString("bio");
+				String email = curseurListeUtilisateurs.getString("email");
 				int age = curseurListeUtilisateurs.getInt("age");
 
 				listeUtilisateurs.add(new Utilisateur(email, pseudo, bio, age));
