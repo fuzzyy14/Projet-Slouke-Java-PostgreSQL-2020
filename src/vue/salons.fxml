@@ -88,113 +88,11 @@
                                     </Button>
                                  </children>
                               </Pane>
-                              <Pane prefHeight="160.0" prefWidth="245.0" styleClass="champ">
-                                 <FlowPane.margin>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </FlowPane.margin>
-                                 <children>
-                                    <Button id="categorie-4" alignment="CENTER" layoutX="32.0" layoutY="42.0" prefHeight="48.0" prefWidth="181.0" text="Lampes">
-                                       <font>
-                                          <Font size="36.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </Pane>
-                              <Pane prefHeight="160.0" prefWidth="245.0" styleClass="champ">
-                                 <FlowPane.margin>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </FlowPane.margin>
-                                 <children>
-                                    <Button id="categorie-5" alignment="CENTER" layoutX="32.0" layoutY="42.0" prefHeight="48.0" prefWidth="181.0" text="Lampes">
-                                       <font>
-                                          <Font size="36.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </Pane>
-                              <Pane prefHeight="160.0" prefWidth="245.0" styleClass="champ">
-                                 <FlowPane.margin>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </FlowPane.margin>
-                                 <children>
-                                    <Button id="categorie-6" alignment="CENTER" layoutX="32.0" layoutY="42.0" prefHeight="48.0" prefWidth="181.0" text="Lampes">
-                                       <font>
-                                          <Font size="36.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </Pane>
-                              <Pane prefHeight="160.0" prefWidth="245.0" styleClass="champ">
-                                 <FlowPane.margin>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </FlowPane.margin>
-                                 <children>
-                                    <Button id="categorie-7" alignment="CENTER" layoutX="32.0" layoutY="42.0" prefHeight="48.0" prefWidth="181.0" text="Lampes">
-                                       <font>
-                                          <Font size="36.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </Pane>
-                              <Pane prefHeight="160.0" prefWidth="245.0" styleClass="champ">
-                                 <FlowPane.margin>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </FlowPane.margin>
-                                 <children>
-                                    <Button id="categorie-8" alignment="CENTER" layoutX="32.0" layoutY="42.0" prefHeight="48.0" prefWidth="181.0" text="Lampes">
-                                       <font>
-                                          <Font size="36.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </Pane>
 
                            </children>
                         </FlowPane>
                      </children>
                   </AnchorPane>
-            <FlowPane id="resume-des-collections" hgap="10.0" layoutX="152.0" layoutY="481.0" prefHeight="130.0" prefWidth="1085.0" styleClass="champ" vgap="10.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="62.0" prefWidth="591.0" style="-fx-background-color: #abb5ff;" text="Statistiques sur les salons" textFill="WHITE" textOverrun="CLIP">
-                     <font>
-                        <Font name="System Bold" size="44.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@decoration/lune-noire.png" />
-                     </image>
-                  </ImageView>
-                  <Label prefHeight="66.0" prefWidth="393.0" text="x salons au total" textFill="WHITE">
-                     <font>
-                        <Font name="Nakula" size="36.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@decoration/lune-noire.png" />
-                     </image>
-                  </ImageView>
-                  <Label prefHeight="66.0" prefWidth="459.0" text="dernier message le 02/02/02" textFill="WHITE">
-                     <font>
-                        <Font name="Nakula" size="36.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@decoration/lune-noire.png" />
-                     </image>
-                  </ImageView>
-                  <Label prefHeight="66.0" prefWidth="419.0" text="14 membres" textFill="WHITE">
-                     <font>
-                        <Font name="Nakula" size="36.0" />
-                     </font>
-                  </Label>
-               </children>
-               <padding>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </padding>
-            </FlowPane>
          </children>
       </AnchorPane>
       <Pane id="entete" layoutX="-3.0" prefHeight="92.0" prefWidth="1171.0" styleClass="champ" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
